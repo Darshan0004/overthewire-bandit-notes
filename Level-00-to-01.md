@@ -6,9 +6,11 @@ Find the password for the next level stored in the `readme` file.
 ---
 
 ## Commands Used
-```bash
+``bash
 ls
 cat readme
+
+---------------------------------------------------------------------------------------------------------
 
 Command Explanation
 
