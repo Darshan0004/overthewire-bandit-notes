@@ -12,29 +12,25 @@ cat readme
 
 ---------------------------------------------------------------------------------------------------------
 
-Command Explanation
+Command Explanation :
+ - ls lists files in the current directory
+ - cat readme prints the contents of the file to the terminal
 
-ls lists files in the current directory
 
-cat readme prints the contents of the file to the terminal
+Concepts Learned :
+ - Basic file enumeration
+ - Reading file contents
+ - Locating stored credentials
 
-Concepts Learned
 
-Basic file enumeration
+Security Takeaway :
 
-Reading file contents
+ - Storing passwords in readable files is dangerous.
+ - If an attacker gains access, secrets can be exposed instantly.
 
-Locating stored credentials
 
-Security Takeaway
+Real-World Relevance :
 
-Storing passwords in readable files is dangerous.
-If an attacker gains access, secrets can be exposed instantly.
-
-Real-World Relevance
-
-Configuration file analysis
-
-Credential leaks on servers
-
-Initial enumeration during penetration testing
+ - Configuration file analysis
+ - Credential leaks on servers
+ - Initial enumeration during penetration testing
