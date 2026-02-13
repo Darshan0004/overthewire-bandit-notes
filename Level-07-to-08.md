@@ -12,29 +12,27 @@ grep millionth data.txt
 
 
 Command Explanation :
-grep searches for matching text patterns
 
-The keyword "millionth" identifies the correct line
+ - grep searches for matching text patterns
+ - The keyword "millionth" identifies the correct line
+ - The password appears next to the keyword
 
-The password appears next to the keyword
 
-Concepts Learned
+Concepts Learned :
 
-Pattern searching in files
+- Pattern searching in files
+- Efficient text filtering
+- Using grep for enumeration
 
-Efficient text filtering
 
-Using grep for enumeration
+Security Takeaway :
 
-Security Takeaway
+ - Large files should be searched intelligently using pattern matching tools.
+ - Manual inspection is inefficient and error-prone.
 
-Large files should be searched intelligently using pattern matching tools.
-Manual inspection is inefficient and error-prone.
 
-Real-World Relevance
+Real-World Relevance :
 
-Log analysis
-
-Threat hunting
-
-Searching for credentials in system files
+ - Log analysis
+ - Threat hunting
+ - Searching for credentials in system files
